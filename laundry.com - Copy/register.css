@@ -1,0 +1,71 @@
+/* Reset & Body */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url(image/Dika\ Laundry\ Logo\ and\ Bubbles.png) no-repeat center center fixed;;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Register Box */
+    .register-container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .register-container h1 {
+      margin-bottom: 20px;
+      color: #3b5c91;
+    }
+
+    /* Input */
+    .register-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    /* Button */
+    .register-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #3b5c91;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    .register-container button:hover {
+      background-color: #2c3e70;
+    }
+
+    /* Link ke login */
+    .register-container p {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .register-container a {
+      color: #3b5c91;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .register-container a:hover {
+      text-decoration: underline;
+    }
